@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+
+    <!-- Scaled and centered within 66dp safe zone (canvas 108dp) -->
+    <!-- Outer Shield Frame -->
+    <path
+        android:fillColor="#00000000"
+        android:strokeColor="#1C2340"
+        android:strokeWidth="4.2"
+        android:strokeLineCap="round"
+        android:strokeLineJoin="round"
+        android:pathData="M 54,26 C 63,26 74,28 76,32 C 78,38 78,52 76,58 C 74,68 63,77 54,84 C 45,77 34,68 32,58 C 30,52 30,38 32,32 C 34,28 45,26 54,26 Z" />
+
+    <!-- Magnifying Glass Rim -->
+    <path
+        android:fillColor="#00000000"
+        android:strokeColor="#1C2340"
+        android:strokeWidth="3.8"
+        android:pathData="M 51,42 A 10,10 0 1 1 50.9,42 Z" />
+
+    <!-- Magnifying Glass Handle -->
+    <path
+        android:fillColor="#00000000"
+        android:strokeColor="#1C2340"
+        android:strokeWidth="3.8"
+        android:strokeLineCap="round"
+        android:pathData="M 44,56 L 35,65" />
+
+    <!-- Verification Checkmark through right side -->
+    <path
+        android:fillColor="#00000000"
+        android:strokeColor="#1C2340"
+        android:strokeWidth="4.6"
+        android:strokeLineCap="round"
+        android:strokeLineJoin="round"
+        android:pathData="M 50,52 L 56,58 L 78,36" />
+
+    <!-- Signature Blue Dot -->
+    <path
+        android:fillColor="#1E88E5"
+        android:pathData="M 54,33 A 3.2,3.2 0 1 1 53.9,33 Z" />
+</vector>
